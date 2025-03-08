@@ -155,7 +155,7 @@ export default function Dashboard() {
                 8/11 Players
               </div>
               <Progress value={72.7} className="h-2 mt-2 bg-background/50" 
-                        />
+                        indicatorClassName="bg-green-500" />
               <p className="text-xs text-muted-foreground mt-2">Need 3 more players</p>
             </div>
           </Card>
