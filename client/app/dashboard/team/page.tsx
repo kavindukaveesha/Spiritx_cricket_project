@@ -92,7 +92,7 @@ export default function TeamPage() {
       case "Excellent": return "text-green-500";
       case "Good": return "text-green-400";
       case "Average": return "text-yellow-500";
-      case "Poor": return "text-red-500";
+      case "Poor": return "text-blue-500";
       default: return "text-gray-500";
     }
   };
@@ -387,7 +387,7 @@ export default function TeamPage() {
                           <Button size="icon" variant="ghost" className="h-7 w-7 text-amber-500 hover:text-amber-600 hover:bg-amber-500/10">
                             <Star className={`h-4 w-4 ${player.starred ? 'fill-amber-400' : ''}`} />
                           </Button>
-                          <Button size="icon" variant="ghost" className="h-7 w-7 text-red-500 hover:text-red-600 hover:bg-red-500/10">
+                          <Button size="icon" variant="ghost" className="h-7 w-7 text-blue-500 hover:text-red-600 hover:bg-red-500/10">
                             <UserX className="h-4 w-4" />
                           </Button>
                         </div>
